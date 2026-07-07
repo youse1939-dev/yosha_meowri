@@ -1,0 +1,77 @@
+@charset "utf-8";
+header{
+	 background-color:#2A9D8F;
+	height: 80px;
+	  font-size: 50px;
+margin:0px;
+}
+
+
+article{
+	
+	
+	
+	
+	
+	
+}
+
+
+.contactus{      border-radius: 25px; background-color: #2A9D8F}
+.class{ margin: 0px; padding: 0px; background-color:    #2A9D8F                           }
+body{  margin: 0px; padding: 0px                               }
+.dont-worry{ margin: 10px 3px 3px 6px;  text-decoration: none}
+
+
+
+.modern-navbar {
+    background-color: #333; 
+    display: flex;          
+    justify-content: center;
+    align-items: center;   
+    padding: 15px 10px;     
+    width: 100%;            
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    flex-wrap: wrap;        
+    box-sizing: border-box; 
+}
+
+.modern-navbar a {
+    color: #f2f2f2;           
+    text-align: center;     
+    padding: 14px 32px;    
+    text-decoration: none;  
+    font-size: 18px;        
+    font-family: 'Arial', sans-serif; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+	border-radius: 40px;
+}
+
+
+.modern-navbar a:hover {
+    background-color: #ddd; 
+    color: #333;    
+}
+
+
+
+.modern-navbar a.button {
+    background-color: #04AA6D;  
+    color: white;
+    border-radius: 5px; 
+	margin-left: 30px;}
+
+.modern-navbar a.button:hover {
+    background-color: #038a57;
+}
+
+.logo img{
+	height: 50px;
+	display: block;
+	border-radius: 40px
+	
+}
+	
+
+body{  margin: 0px; padding: 0px                               }
+.logo{padding-right: 20px}
