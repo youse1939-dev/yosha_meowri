@@ -86,3 +86,80 @@ body{  margin: 0px; padding: 0px                               }
 	
 	
 }
+.content-card {
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch;  باشن */
+    gap: 20px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    max-width: 800px;
+    width: 500px;
+    min-height: 256px; 
+    margin: 20px auto;
+    background-color: aliceblue;
+    transition: transform 0.3s ease; 
+    overflow: hidden;
+}
+
+.content-card:hover {
+    transform: translateY(-5px);
+}
+
+.content-text {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.view-btn {
+    width: fit-content; 
+    padding: 8px 20px; 
+    border: 2px solid #2A9D8F;
+    text-decoration: none;
+    color: #2A9D8F;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.4s ease; 
+    margin-top: 10px; 
+}
+
+.view-btn:hover {
+    background-color: #2A9D8F;
+    color: white;
+}
+
+.content-image {
+    flex: 1; 
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.creator {
+    margin: 0;
+    padding-top: 0; 
+    font-weight: normal;
+    opacity: 0.8; 
+}
+.universe-container {
+    display: flex;       /* از فلکس استفاده می‌کنیم چون گرید اصرار داره سایزها رو مدیریت کنه */
+    flex-wrap: wrap;     /* این یعنی اگه ردیف پر شد، بره ردیف پایین */
+    gap: 20px;           /* فاصله بین کارت‌ها */
+    justify-content: flex-start; /* این همون جادوی چپ‌چین شدن هست! */
+}
+
+/* و توی کلاس خودِ کارت، همون عرض و ارتفاع قبلی رو ول کن، دست نزن! */
+.content-card {
+    /* هیچ تغییری لازم نیست، همون تنظیمات قبلی خودت بمونه */
+}
